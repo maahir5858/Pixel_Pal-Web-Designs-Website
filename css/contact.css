@@ -1,0 +1,58 @@
+/* SERVICES.html */
+
+
+/* article & aside - flexbox */
+#main .flexbox {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 45px;
+    align-items: start;
+}
+article {
+    flex: 1.5;
+}
+aside {
+    flex: 1;
+}
+
+/* Dark Container */
+.dark{
+    background-color: #35424a;
+    color: white;
+    padding: 45px 0 50px 50px;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+.quote {
+    margin-top: 40px;
+    h2{
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    label{
+        font-size: 20px;
+    }
+    input, textarea {
+        width: 80%;
+        padding: 15px;
+        margin: 5px 0 20px 0;
+    }
+    button {
+        font-size: 22px;
+        padding: 15px 30px;
+    }
+}
+
+/* Image */
+article img {
+    width: 100%;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 60px;
+}

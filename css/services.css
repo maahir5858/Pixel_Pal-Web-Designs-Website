@@ -1,0 +1,57 @@
+/* SERVICES.html */
+
+
+/* article & aside - flexbox */
+#main .flexbox {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 45px;
+    align-items: start;
+}
+
+/* Dark Container */
+.dark{
+    background-color: #35424a;
+    color: white;
+    padding: 15px 0 35px 40px;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+article img {
+    width: 100%;
+}
+
+
+
+/* Services */
+#services-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.service-box {
+    border: 1px solid black;
+    padding: 20px 50px 35px 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.learn-more {
+    display: inline;
+    font-weight: bold;
+    font-size: 17.4px;
+    color: #0101b9;
+}
+.learn-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* Footer */
+footer {
+    margin-top: 60px;
+}

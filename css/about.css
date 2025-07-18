@@ -1,0 +1,43 @@
+/* ABOUT.html */
+
+
+/* article & aside - flexbox */
+#main .flexbox {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 45px;
+    align-items: baseline;
+}
+article {
+    flex: 2.5;
+}
+aside {
+    flex: 1;
+}
+
+/* About Developer Article */
+article span#developer {
+    color: orangered;
+}
+
+.github {
+    margin-bottom: 3px;
+}
+section article a {
+    color: hsl(195, 53%, 65%);
+}
+
+/* Dark Container */
+.dark{
+    background-color: #35424a;
+    color: white;
+    padding: 15px 0 35px 40px;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+}

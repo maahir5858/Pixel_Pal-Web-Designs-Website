@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.button-1 {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* INDEX.html */
+
+
+
+/* Header */
+header {
+    background-color: #35424a;
+    color: white;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: 3.5px solid orangered;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header #highlight,
+header a:hover {
+    color: orangered;
+}
+
+header #current {
+    color: orangered;
+    font-weight: 800;
+}
+
+
+/* Showcase */
+#showcase {
+    min-height: 400px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+#showcase h1 {
+    margin-top: 110px;
+    margin-bottom: 30px;
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 18px;
+    margin-bottom: 110px;
+}
+
+#showcase .and {
+    font-size: 30px;
+    padding: 0 10px;
+    color: orangered;
+}
+
+
+/* Newsletter */
+#newsletter {
+    background-color: #35424a;
+    color: white;
+    padding: 15px;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter form input {
+    font-size: 15px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 100px;
+    width: 250px;
+    border: none;
+    margin-right: 10px;
+}
+
+form button:hover {
+    background-color: hsl(16, 100%, 44%);
+}
+form button:active {
+    background-color: hsl(16, 100%, 55%);
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+#boxes .box img {
+    width: 150px;
+}
+
+#boxes .box img:hover {
+    width: 140px;
+}
+
+#boxes h3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Dark Container */
+.dark{
+    background-color: #35424a;
+    color: white;
+    padding: 50px 210px 20px;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+section img {
+    width: 100%;
+}
+
+
+/* Footer */
+footer {
+    background-color: orangered;
+    color: white;
+    padding: 17px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p.underlined {
+    text-decoration: underline;
+}
+
+footer p:hover {
+    cursor: pointer;
+}
